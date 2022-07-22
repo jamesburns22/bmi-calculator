@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>bmi</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="bmi-calculator">
+        <h1>BMI Calculator</h1>
+        <div class="bmi-inputs">
+            <input id="height" type="number" placeholder="Your Height (cm)">
+            <input id="weight" type="number" placeholder="Your Weight (kg)">
+        </div>
+        <input class="cta" id="bmi-confirm" type="submit" value="Calculate →">
+
+        <div class="output">
+            <h2>Your BMI</h2>
+            <input id="BMI" type="number" readonly>
+            <p id="underweight">Underweight</p>
+            <p id="normalweight">Normal Weight</p>
+            <p id="overweight">Overweight</p>
+            <p id="obesity">Obesity</p>
+        </div>
+    </div>
+
+    <script src="index.js" ></script>
+</body>
+
+</html>
